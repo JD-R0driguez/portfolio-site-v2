@@ -1,0 +1,73 @@
+section.contact{
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact button.send-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    border-radius: 10em;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0.4rem 0.9rem;
+    border: 2px solid #FF5A5F;
+    color: #FF5A5F;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+h4{
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+    color: #484848ad;
+    text-align: center;
+}
+
+.contact button.send-email:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 #FF5A5F;
+  }
+
+
+.contact footer h4{
+    font-size: 0.8rem;
+    margin-top: 15rem;
+}  
+
+
+.contact footer span{
+    font-size: 14px;
+    color: #FF5A5F;
+}
+
+footer .credit-text{
+    font-size: 0.7rem;
+    color: #FF5A5F;
+}

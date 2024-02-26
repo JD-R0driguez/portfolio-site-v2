@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;     
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 4rem 1.6rem 1.2rem;
+    height: 30px;
+}
+
+.nav-bar .logo-image{
+    position: fixed;
+    z-index: 2;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 2.3rem;
+    list-style-type: none;
+}
+
+.nav-links .about{
+    animation-delay: 0.1s;
+}
+
+.nav-links .projects{
+    animation-delay: 0.2s;
+}
+
+.nav-links .contact{
+    animation-delay: 0.3s;
+}
+
+.motion-button.resume{
+    animation-delay: 0.4s;
+}
+
+.header-anchor-tag{
+    text-decoration: none;
+    color: #484848;
+    font: inherit;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+.header-button-resume{
+    text-decoration: none;
+}
+
+.header-anchor-tag:hover {
+    color: #FF5A5F;
+    transform: translateY(-5px);
+}
+
+.nav-links button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    border-radius: 10em;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0.4rem 1rem;
+    border: 2px solid #484848;
+    color: #484848;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.motion-button {
+    margin-left: 2.5rem;
+    color: #484848;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.4em 0.6em;
+    border: 2px solid #484848;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.motion-button.logo{
+    margin-right: 1rem;
+    border-radius: 2px 25px 2px 25px;
+    padding: 7px 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    background-color: #FF5A5F;
+    color: white;
+
+}
+
+.motion-button::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #484848;
+    transform: translateX(-100%);
+    transition: all 0.7s ease-in-out;
+    z-index: -1;
+}
+
+.motion-button:hover::before {
+    transform: translateX(0);
+} 
+  
+.motion-button:hover {
+    transform: translateX(-3px) translateY(-3px);
+    color: white;
+}
+

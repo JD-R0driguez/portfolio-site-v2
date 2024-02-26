@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+.text-animation {
+  font-size: 65px;
+  font-family: 'Poppins', sans-serif;   
+  font-weight: 600;
+  line-height: 1.2;  
+  color: #767676;
+  animation-delay: 1s;
+}
+
+.letter {
+  display: inline-block;
+  letter-spacing: -4px;
+}
+
+.space{
+  margin: 0px 2px;
+}
+
+.theme-2{
+  color:#FF5A5F;
+}

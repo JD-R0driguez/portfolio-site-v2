@@ -1,0 +1,44 @@
+.left-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    position: fixed;
+    z-index: 1;
+    left: 20px;
+    top: 200px;
+    width: 120px;
+    height: 100vh;
+    overflow-x: hidden;
+    padding-top: 60px;
+    gap:1rem;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+
+.svg-container{
+    width: 2rem;
+}
+
+.svg-icon{
+    transition: all 0.3s ease-in-out;
+}
+
+.svg-container:hover .svg-icon{
+    transform: translateY(-4px) translateX(-2px);
+}
+
+.svg-path {
+    transition: stroke 0.3s;
+}
+  
+.svg-container:hover .svg-path {
+    stroke: #FF5A5F;
+}
+
+.vertical-line {
+    margin-top: 20px;
+    width: 1px;
+    height: 50%;
+    background-color: #2d2c2c;
+}
