@@ -13,17 +13,20 @@ export default function About(){
             <div className="about-split">
                 <div className="about-text">
                     <p>
-                        <span className="about-text-color">Hi there!</span> I am Juan and I enjoy creating things that live on the internet.
+                        <span className="about-text-color">Hi there!</span> I'm Juan and I enjoy creating things that live on the internet.
                         My interest in web development started back in 2020 when I decided to tackle creating
-                        a website for my woodworking business. — turns out attempting to create a header taught me a lot about HTML & CSS!
+                        a website for my woodworking business — turns out attempting to create a header taught me a lot about HTML & CSS!
                     </p>
                     <p>
-                        I have a background in mechatronics engineer and love programming because it is so practical, and I can solve real-world challenges with it. 
-                        For me, programming is a tool to express myself in a creative way. Today I'm enthralled by web development. Creating new experiences,
-                        implementing eye pleasing designs and making them come to life with animation is what I do best.
+                        I have a background in mechatronics engineering and love programming because it is so practical, and I can solve real-world challenges with it. 
+                        For me, programming is a tool to express myself in a creative way. 
                     </p>
                     <p>
-                        <span className="about-text-color">Here</span> are some of the technologies I am familiar with: 
+                        Today, I'm enthralled by web development. Creating new experiences,
+                        implementing eye pleasing designs and making them come to life is what I do best.
+                    </p>
+                    <p>
+                        Here are some of the technologies I am familiar with:
                     </p>
                 </div>
                 <did className="image-container">

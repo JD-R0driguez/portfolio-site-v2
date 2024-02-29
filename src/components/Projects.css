@@ -160,3 +160,26 @@ button.live-code{
 }
 
 
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        gap:2rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .section-projects{
+        width: 60%;
+    }
+    .project-image-container img{
+        margin-top: -3rem;
+        margin-bottom: -3rem;
+    }
+    .project-container, .project-container.left{
+        height: auto;
+        flex-direction: column-reverse;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-left: 0.7rem;
+    }
+}
+

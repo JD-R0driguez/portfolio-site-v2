@@ -23,7 +23,7 @@ export default function Contact(){
                     <h4>Next Steps</h4>
                     <h1>Get In Touch</h1>
                 </div>
-                <h4>
+                <h4 className="text">
                 I'm currently seeking a new opportunity to contribute to innovative projects. 
                 If you have any exciting prospects or openings on your team, I'd love to hear 
                 about them. Looking forward to potentially collaborating with you!

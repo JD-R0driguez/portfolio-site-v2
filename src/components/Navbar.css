@@ -18,6 +18,7 @@
 .nav-bar .logo-image{
     position: fixed;
     z-index: 2;
+    margin-top: -1.5rem;
 }
 
 .nav-links {
@@ -132,3 +133,17 @@
     color: white;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .nav-bar .logo-image{
+        margin-left: -2.5rem;
+    }
+    .nav-links{
+        position: absolute;
+        right: 1rem;
+        font-size: small;
+    }
+    .motion-button.resume{
+        font-size: small;
+    }
+}

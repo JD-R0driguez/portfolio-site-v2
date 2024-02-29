@@ -70,7 +70,7 @@ export default function Projects() {
                     <div className="project-text-container">
                         <h2 className="project-name">Age Calculator Application  </h2>
                             <div className="text-overlap">
-                                <p><span className="inline-color-text">User-friendly</span>  app allows users input birthdate for instant, 
+                                <p><span className="inline-color-text">User-friendly</span>  app allows users to input birthdate for instant, 
                                 accurate age calculation with intuitive interface and real-time validation.
                                 </p>
                             </div>

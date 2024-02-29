@@ -12,6 +12,7 @@ section.contact{
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-left: 30px;
     gap: 2rem;
     justify-content: center;
     align-content: center;
@@ -70,4 +71,40 @@ h4{
 footer .credit-text{
     font-size: 0.7rem;
     color: #FF5A5F;
+}
+
+@media only screen and (max-width: 1100px) {
+    .about-title{
+        margin-bottom: 0.2rem;
+    }
+    .contact-container{
+        width: 45%;
+    }
+    h4{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .about-title{
+        margin-bottom: -0.5rem;
+    }
+    .contact-container{
+        width: 55%;
+    }
+    h4.text{
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .about-title h1{
+        font-size: 1.7rem;
+    }
+    h4{
+        font-size: 0.8rem;
+    }   
 }

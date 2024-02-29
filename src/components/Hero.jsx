@@ -12,7 +12,7 @@ export default function Hero(){
                     <TextAnimation text="I build things for the web" style="theme-2"/>
                     <h3 className="hero-small animate__animated animate__fadeIn">
                         I specialize in front-end development and take pride <br/>
-                        in calling The Beer City-USA, Grand Rapids, my home base.
+                        in calling Grand Rapids, Beer City, USA my home base.
                     </h3>
                 </section>
             </div>
