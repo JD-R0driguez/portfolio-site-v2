@@ -28,7 +28,7 @@ export default function Projects() {
                             </div>
                             <h2 className="tech-stack"><pre>React      CSS3      HTML5      </pre></h2>
                             <div className="links">
-                                <a href="https://github.com/JD-R0driguez/personal-site" target="_blank">
+                                <a href="https://github.com/JD-R0driguez/home-page" target="_blank">
                                     <button className="repo-link">Source &lt;/&gt;</button>
                                 </a>
                             </div>
