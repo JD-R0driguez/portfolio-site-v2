@@ -1,0 +1,26 @@
+section.footer{
+    margin: 3rem 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer footer h4{
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+    color: #484848ad;
+    text-align: center;
+    font-size: 0.8rem;
+}  
+
+
+.footer footer span{
+    font-size: 14px;
+    color: #FF5A5F;
+}
+
+footer .credit-text{
+    font-size: 0.7rem;
+    color: #FF5A5F;
+}
