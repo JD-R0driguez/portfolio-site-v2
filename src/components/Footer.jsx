@@ -22,7 +22,6 @@ export default function Contact() {
             <footer>
                 <h4>Designed and Built with <span>&hearts;</span> by Juan Rodirguez
                     <span className="counter-icon"> &#9860;</span> {Math.floor(count / 2)}
-                    <p className="credit-text">Inspired by Brittany Chang</p>
                 </h4>
             </footer>
         </section>

@@ -44,8 +44,7 @@ export default function About() {
                     </div>
                     <div className="experience-cards-container">
                         <div className="experience-card">
-                            <h3>Frontend Developer</h3>
-                            <h4>UFP Industries</h4>
+                            <h3>Frontend Developer <span>●</span> UFP Industries</h3>
                             <p>
                                 Create interactive Shopify solutions from Figma designs, emphasizing responsive, user-friendly experiences. Collaborate closely with remote teams to optimize code for performance and scalability.
                             </p>
@@ -58,8 +57,7 @@ export default function About() {
                         </div>
 
                         <div className="experience-card">
-                            <h3>Business Architect & Owner</h3>
-                            <h4>BlueWoodCo</h4>
+                            <h3>Business Architect & Owner <span>●</span>  BlueWoodCo</h3>
                             <p>
                                 Built an engaging online storefront, optimized user experience, and leveraged visuals—translating directly to frontend development and e-commerce design.
                             </p>
@@ -71,8 +69,7 @@ export default function About() {
                         </div>
 
                         <div className="experience-card">
-                            <h3>Software Engineer</h3>
-                            <h4>Structures Laboratory, Universidad Nacional</h4>
+                            <h3>Software Engineer <span>●</span> Structures Laboratory, UNAL</h3>
                             <p>
                                 Engineered robust data systems, collaborated cross-functionally, and optimized software performance, building strong foundational skills in software engineering and technical problem-solving.
                             </p>

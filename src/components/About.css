@@ -1,10 +1,9 @@
-
+/* 
 section.about{
     margin-top: 2rem;
     padding-top: 2rem;
     margin-bottom: 3rem;
     min-height: 700px;
-    /* max-height: 800px; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -71,8 +70,8 @@ section.about{
     display: flex;
     flex-direction: column;
     padding: 0 8px 0 10px;
-    overflow-y: visible; /* remove scrolling */
-    max-height: none; /* allow natural height */
+    overflow-y: visible;
+    max-height: none;
 }
   
 .experience-card {
@@ -184,7 +183,6 @@ section.about{
 }
 
 
-/* Dice spinner styles */
 
 .image-container {
     position:static;
@@ -294,4 +292,239 @@ section.about{
         margin-bottom: 18rem;
     }
 }
+ */
 
+ section.about {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .about-split {
+    margin-top: 0px;
+    max-width: 65%;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    position: relative;
+  }
+  
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--text-dark-secondary-color);
+    padding-right: 12px;
+    flex: 2;
+    margin-left: 2rem;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    letter-spacing: 0.5px;
+  }
+  
+  .experience-title {
+    width: 100%;
+    margin-top: 2rem;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 1rem;
+  }
+  
+  .experience-title h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text-dark-secondary-color);
+  }
+  
+  .experience-cards-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px 0 10px;
+    overflow-y: visible;
+    max-height: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) transparent;
+  }
+  
+  .experience-cards-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .experience-cards-container::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+  }
+  
+  .experience-card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin: 0.8rem 0.8rem;
+  }
+  
+  .experience-card h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-secondary-color);
+    margin-bottom: 0.3rem;
+  }
+  
+  .experience-card h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--tag-text);
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-card p {
+    color: var(--text-secondary-color);
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skill-tag {
+    padding: 0.3rem 0.7rem;
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  .experience-card.highlighted,
+  .experience-card:hover {
+    background-color: #fa9d9d16;
+    box-shadow: 0 6px 15px var(--shadow-color);
+  }
+  
+  .resume-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--resume-link);
+    gap: 0.3rem;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    margin-left: 1rem;
+    border: none;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .resume-btn .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .resume-btn:hover {
+    color: var(--primary-color);
+  }
+  
+  .resume-btn:hover .arrow {
+    transform: translate(4px, -4px);
+  }
+  
+  /* Dice spinner styles */
+  .image-container {
+    position: static;
+    top: 2rem;
+    align-self: flex-start;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .cube-spinner {
+    margin-top: 70%;
+    animation: spine-cube 10s infinite ease-in-out;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
+  }
+  
+  .cube-spinner div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 5px solid var(--cube-border);
+    border-radius: 8px;
+    background: var(--cube-bg);
+    text-align: center;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .face-1 { transform: translateZ(100px); }
+  .face-2 { transform: rotateY(90deg) translateZ(100px); }
+  .face-3 { transform: rotateY(90deg) rotateX(90deg) translateZ(100px); }
+  .face-4 { transform: rotateY(180deg) rotateZ(90deg) translateZ(100px); }
+  .face-5 { transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px); }
+  .face-6 { transform: rotateX(-90deg) translateZ(100px); }
+  
+  @keyframes spine-cube {
+    0%, 100% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+    16% { transform: rotateY(-90deg); }
+    33% { transform: rotateY(-90deg) rotateZ(90deg); }
+    50% { transform: rotateY(-180deg) rotateZ(90deg); }
+    66% { transform: rotateY(-270deg) rotateZ(90deg); }
+    83% { transform: rotateX(90deg); }
+  }
+  
+  /* Responsive */
+  @media only screen and (max-width: 1100px) {
+    .about-text {
+      max-height: none;
+    }
+  
+    .about-text p {
+      font-size: 1rem;
+    }
+  
+    .about-split {
+      margin-top: 3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    section.about {
+      background-color: var(--tag-bg);
+    }
+  
+    .about-split {
+      margin-top: 3rem;
+      margin-left: 2rem;
+      flex-direction: column;
+    }
+  
+    .cube-spinner {
+      margin-top: -6rem;
+      margin-bottom: 18rem;
+    }
+  }
+  

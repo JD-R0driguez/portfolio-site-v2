@@ -22,6 +22,7 @@
 
 .svg-icon{
     transition: all 0.3s ease-in-out;
+    color: var(--text-secondary-color);
 }
 
 .svg-container:hover .svg-icon{
@@ -40,7 +41,7 @@
     margin-top: 20px;
     width: 2px;
     height: 40%;
-    background-color: #2d2c2c;
+    background-color: var(--text-secondary-color);
 }
 
 @media only screen and (max-width: 768px) {
@@ -48,3 +49,5 @@
         display: none;
     }
 }
+
+

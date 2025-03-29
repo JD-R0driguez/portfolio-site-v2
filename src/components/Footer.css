@@ -9,7 +9,7 @@ section.footer{
 .footer footer h4{
     font-weight: 400;
     margin-bottom: 0.3rem;
-    color: #484848ad;
+    color: var(--secondary-color);
     text-align: center;
     font-size: 0.8rem;
 }  
@@ -17,10 +17,5 @@ section.footer{
 
 .footer footer span{
     font-size: 14px;
-    color: #FF5A5F;
-}
-
-footer .credit-text{
-    font-size: 0.7rem;
-    color: #FF5A5F;
+    color: var(--primary-color);
 }
