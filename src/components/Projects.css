@@ -65,6 +65,7 @@ section.projects {
     z-index: -1;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
   }
   
   .project-image-container img {
