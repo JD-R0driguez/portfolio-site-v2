@@ -47,6 +47,42 @@
   font-weight: 300;
 }
 
+
+[data-theme="dark"] .project-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .project-image-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(252, 137, 145, 0.864), rgba(155, 151, 151, 0.824), rgba(255, 136, 146, 0.431));
+  background-size: 200% 200%;
+  animation: gradientSweep 5s ease infinite;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+@keyframes gradientSweep {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+[data-theme="dark"] .project-image-container:hover::after {
+  opacity: 0;
+}
+
+
+
+
 body {
   background-color: var(--background-color);
   color: var(--text-color);
