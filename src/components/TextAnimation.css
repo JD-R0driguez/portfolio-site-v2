@@ -7,6 +7,10 @@
   line-height: 1.2;  
   color: var(--text-heading-color);
   animation-delay: 1s;
+
+
+  white-space: nowrap;
+
 }
 
 .letter {
@@ -22,28 +26,20 @@
   color: var(--theme-accent-color);
 }
 
-@media only screen and (max-width: 1100px) {
-  .text-animation{
-      font-size: 59px;
+@media only screen and (max-width: 900px) {
+  .text-animation {
+    font-size: 50px;
   }
 }
 
-
-@media only screen and (max-width: 968px) {
-  .text-animation{
-      font-size: 52px;
+@media only screen and (min-width: 420px) and (max-width: 680px){
+  .theme-1{
+    font-size: 38px;
   }
-}
-
-
-@media only screen and (max-width: 850px) {
-  .text-animation{
-      font-size: 47px;
+  .theme-2{
+    font-size: 33px;
   }
-}
-
-@media only screen and (max-width: 740px) {
-  .text-animation{
-      font-size: 37px;
+  .text-animation {
+    line-height: 0.9;
   }
 }

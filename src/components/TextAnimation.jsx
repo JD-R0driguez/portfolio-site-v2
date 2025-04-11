@@ -11,7 +11,7 @@ export default function TextAnimation(props) {
             {char}
         </span>
         )
-        });
+    });
 
     return (
         <div className="text-animation animate__animated animate__fadeIn">
