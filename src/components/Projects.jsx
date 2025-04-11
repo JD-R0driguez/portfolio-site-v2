@@ -16,7 +16,6 @@ export default function Projects({ theme }) {
                 <h2>Check out some of my projects</h2>
             </div>
             <div className="section-projects">
-                {/* Honest Advisor Project */}
                 <div className="project-container left">
                     <div className="project-image-container">
                         <img
@@ -53,7 +52,6 @@ export default function Projects({ theme }) {
                     </div>
                 </div>
 
-                {/* Portfolio Site Project */}
                 <div className="project-container right">
                     <div className="project-image-container">
                         <img
@@ -90,7 +88,6 @@ export default function Projects({ theme }) {
                     </div>
                 </div>
 
-                {/* Deckorators Cost Calculator */}
                 <div className="project-container right">
                     <div className="project-image-container">
                         <img
@@ -124,7 +121,6 @@ export default function Projects({ theme }) {
                     </div>
                 </div>
 
-                {/* Deckorators Baluster Calculator */}
                 <div className="project-container left">
                     <div className="project-image-container">
                         <img
