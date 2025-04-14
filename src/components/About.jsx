@@ -80,7 +80,7 @@ export default function About() {
                             </div>
                         </div>
 
-                        <a href="your-resume-link.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+                        <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noopener noreferrer" className="resume-btn">
                             View Full Resume <span className="arrow">↗</span>
                         </a>
                     </div>
